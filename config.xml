@@ -2,11 +2,11 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.hello-world"
-        version   = "0.1.0">
-    <name>WorkflowY</name>
+        version   = "0.1.1">
+    <name>WorkFlowy</name>
 
     <description>
-        Simple wrapper around WorkflowY webpage for a better display as in browser
+        Simple wrapper around WorkFlowy webpage for a better display as in browser
     </description>
 
     <author href="http://blog.knut.me/" email="knut@ahlers.me">
