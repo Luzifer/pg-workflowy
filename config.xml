@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.hello-world"
-        version   = "0.1.5">
+        version   = "0.1.6">
     <name>WorkFlowy</name>
 
     <description>
