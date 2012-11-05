@@ -9,9 +9,11 @@
         if ((android) && (androidVersion > 3)) {
             iFrameContentHeight = document.getElementById('theiFrame').contentDocument.body.offsetHeight;
             document.getElementById('theiFrame').style.height = iFrameContentHeight + 'px';
-            window.setTimeout(fixiFrame, 100);
         }
       }
+      $(function() {
+        setInterval(fixiFrame, 100);
+      });
     </script>
     <style type="text/css" media="screen">
       * {
@@ -28,6 +30,6 @@
     </style>
   </head>
   <body>
-    <iframe src="https://workflowy.com/" width='100%' scrolling='no' frameBorder='0' id='theiFrame' onLoad='fixiFrame();'></iframe>
+    <iframe src="https://workflowy.com/" width='100%' scrolling='no' frameBorder='0' id='theiFrame'></iframe>
   </body>
 </html>
